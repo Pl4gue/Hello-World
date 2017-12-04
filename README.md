@@ -7,4 +7,5 @@ one using plain Node HTTP and one using Express.js. This is my first approach to
 
 ### Install
 `npm install gci2017_npmhelloworld@1.0.0`
+
 You will find the package in your `node_modules/` folder.
