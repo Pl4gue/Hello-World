@@ -1,7 +1,7 @@
 {
   "name": "gci2017_npmhelloworld",
-  "version": "1.0.0",
-  "description": "npm Hello World for GCI 2017",
+  "version": "1.0.1",
+  "description": "Hello World Application for GCI 2017",
   "main": "helloworld.js",
   "dependencies": {
     "express": "^4.16.2"
