@@ -7,4 +7,8 @@ This is just a simple Node.js application printing 'Hello World' to console. Thi
 ### Install
 `npm install gci2017_npmhelloworld@1.0.1`
 
-You will find the package in your `node_modules/` folder.
+### Usage
+```
+var moduletest=require('gci2017_npmhelloworld')
+moduletest.helloworld();
+```
