@@ -16,5 +16,7 @@ var testmodule = require('gci2017_npmhelloworld')
 
 Then, use either
 ``` testmodule.hwcmd() ``` for 'Hello World' console output
+
 ``` testmodule.hwhttp('127.0.0.1',1337) ``` for 'Hello World' on a normal http hosted page at `127.0.0.1:1337`
+
 ``` testmodule.hwexpress('127.0.0.1',1337) ``` for 'Hello World' on a express hosted page at `127.0.0.1:1337`
