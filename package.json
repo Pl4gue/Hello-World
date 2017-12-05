@@ -1,14 +1,10 @@
 {
   "name": "gci2017_npmhelloworld",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Hello World Application for GCI 2017",
   "main": "helloworld.js",
-  "dependencies": {
-    "express": "^4.16.2"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -19,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/Pl4gue/Hello-World/issues"
   },
-  "homepage": "https://github.com/Pl4gue/Hello-World#readme"
+  "homepage": "https://github.com/Pl4gue/Hello-World#readme",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
 }
