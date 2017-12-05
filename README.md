@@ -5,7 +5,7 @@ This is just a simple Node.js application printing 'Hello World' to console. Thi
 => Made as part of Google Code-In 2017 for [Sugar Labs](https://www.sugarlabs.org).
 
 ### Install
-`npm install gci2017_npmhelloworld@1.0.1`
+`npm install gci2017_npmhelloworld@1.0.2`
 
 ### Usage
 ```
