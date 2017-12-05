@@ -1,11 +1,20 @@
-#Hello-World
+# Hello-World
 
-It is just a simple Node.js application hosting two local servers with "Hello World" pages, one using plain Node HTTP and one using Express.js. This is my first approach to Node.js and the npm package manager.
+It is just a simple Node.js module for creating "_Hello World_" messages in different ways.
 
 => Made as part of Google Code-In 2017 for [Sugar Labs](https://sugarlabs.org/).
 
-Install
+### Install
 
-npm install gci2017_npmhelloworld@1.0.0
+npm install gci2017_npmhelloworld@2.0.0
 
-You will find the package in your node_modules/ folder.
+### Usage
+Import module using
+```
+var testmodule = require('gci2017_npmhelloworld')
+```
+
+Then, use either
+``` testmodule.hwcmd() ``` for 'Hello World' console output
+``` testmodule.hwhttp('127.0.0.1',1337) ``` for 'Hello World' on a normal http hosted page at `127.0.0.1:1337`
+``` testmodule.hwexpress('127.0.0.1',1337) ``` for 'Hello World' on a express hosted page at `127.0.0.1:1337`
