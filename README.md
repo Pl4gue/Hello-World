@@ -6,7 +6,7 @@ It is just a simple Node.js module for creating "_Hello World_" messages in diff
 
 ### Install
 
-npm install gci2017_npmhelloworld@2.0.0
+`npm install gci2017_npmhelloworld@2.0.0`
 
 ### Usage
 Import module using
