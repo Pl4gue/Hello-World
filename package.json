@@ -1,8 +1,9 @@
 {
   "name": "gci2017_npmhelloworld",
-  "version": "1.0.2",
-  "description": "Hello World Application for GCI 2017",
-  "main": "helloworld.js",
+  "version": "2.0.0",
+  "description": "module for Hello World in different ways",
+  "main": "index.js",
+
   "scripts": {
     "test": "mocha --reporter spec"
   },

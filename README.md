@@ -1,14 +1,22 @@
 # Hello-World
 
-This is just a simple Node.js module for printing 'Hello World' to console. This is my first approach to Node.js and the npm package manager.
+It is just a simple Node.js module for creating "_Hello World_" messages in different ways. This is my very first approach to **Node.js** and the **npm** package manager
 
-=> Made as part of Google Code-In 2017 for [Sugar Labs](https://www.sugarlabs.org).
+=> Made as part of Google Code-In 2017 for [Sugar Labs](https://sugarlabs.org/).
 
 ### Install
-`npm install gci2017_npmhelloworld@1.0.2`
+
+`npm install gci2017_npmhelloworld@2.0.0`
 
 ### Usage
+Import module using
 ```
-var moduletest=require('gci2017_npmhelloworld')
-moduletest.helloworld();
+var testmodule = require('gci2017_npmhelloworld')
 ```
+
+Then, use either
+``` testmodule.hwcmd() ``` for 'Hello World' console output
+
+``` testmodule.hwhttp('127.0.0.1',1337) ``` for 'Hello World' on a normal http hosted page at `127.0.0.1:1337`
+
+``` testmodule.hwexpress('127.0.0.1',1337) ``` for 'Hello World' on a express hosted page at `127.0.0.1:1337`
