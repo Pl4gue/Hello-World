@@ -1,6 +1,6 @@
 # Hello-World
 
-It is just a simple Node.js module for creating "_Hello World_" messages in different ways.
+It is just a simple Node.js module for creating "_Hello World_" messages in different ways. This is my very first approach to **Node.js** and the **npm** package manager
 
 => Made as part of Google Code-In 2017 for [Sugar Labs](https://sugarlabs.org/).
 
